@@ -39,6 +39,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .card__title {
+        font-size: 8px;
+    }
+
     .card__description {
         font-size: 8px;
     }
