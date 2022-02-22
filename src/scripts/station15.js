@@ -11,12 +11,12 @@ async function getData() {
 }
 
 function test(userList) {
-  return new Promise(function(resolve) {
-    userList.map((data) => {
-      const fullName = data.family_name + " " + data.first_name
-      data["full_name"] = fullName
-    });
-    setTimeout(function() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      userList.map((data) => {
+        const fullName = data.family_name + " " + data.first_name
+        data["full_name"] = fullName
+      });
       resolve(userList);
     }, 3000);
   });

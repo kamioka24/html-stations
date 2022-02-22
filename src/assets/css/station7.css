@@ -1,5 +1,5 @@
 body {
-    background-color: #C4C4C4;
+    background-color: #C0C0C0;
 }
 
 header {
@@ -11,15 +11,15 @@ footer {
 }
 
 .card {
+    width: 240px;
     background-color: #ffffff;
-    text-align: center;
-    padding: 10px;
+    margin: auto;
 }
 
 .card__img-top {
-    width: 288px;
-    height: 182px;
-    margin-bottom: 20px;
+    width: 228px;
+    height: 132px;
+    margin-bottom: 5px;
 }
 
 .card__title {
@@ -30,4 +30,5 @@ footer {
 .card__description {
     color: #282828;
     font-size: 12px;
+
 }
