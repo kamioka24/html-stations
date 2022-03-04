@@ -6,7 +6,32 @@ function getData() {
 
 
 
-// ↓↓ 問題文修正後
+// --------- ↓↓ 問題文修正後 ↓↓ ---------
+
+// 【問題文】
+// data = "global data";
+
+// // このreturnDataに代入される関数の形をアロー関数に変えて"global data"が表示されるようにしてください
+// // ↓関数の中の処理は変更しないでください
+// const returnThisData = function () {
+//   return this.data;
+// };
+// // ↑関数の中の処理は変更しないでください
+
+// const object = {
+//   data: "object data",
+//   func: returnThisData,
+// };
+
+// function getData() {
+//   return object.func();
+// }
+
+
+
+
+
+// ---------- ↓↓ 回答例 ↓↓ ----------
 // data = "global data";
 
 // // このreturnDataに代入される関数の形をアロー関数に変えて"global data"が表示されるようにしてください
